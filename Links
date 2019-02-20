@@ -2,6 +2,15 @@ For ImageGallery
 
 https://fancyapps.com/fancybox/3/
 
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.6/dist/jquery.fancybox.min.css" />
+<script src="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.6/dist/jquery.fancybox.min.js"></script>
+
+                   videos
+                                                    
+                    <a data-fancybox data-width="600" data-height="300" href="Files/SampleVideo_1280x720_1mb.mp4">
+                        Sample Video
+                    </a>
+
 Disable-Browser-Back-Button-after-LogOut-in-ASPNet
 
 https://www.aspsnippets.com/Articles/Disable-Browser-Back-Button-after-LogOut-in-ASPNet-using-JavaScript.aspx
