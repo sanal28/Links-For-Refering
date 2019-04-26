@@ -32,3 +32,13 @@ https://www.w3schools.com/tags/tryit.asp?filename=tryhtml5_video
 BlockUI
 
 http://malsup.com/jquery/block/#overview
+  
+     function showLoader() {
+                $.blockUI({
+                    message: '<img src="images/loading.gif"/>',
+                    css: { border: '0px solid #FFFFFF', cursor: 'wait', backgroundColor: '#FFFFFF' },
+                    overlayCSS: { backgroundColor: '#FFFFFF', cursor: 'wait' },
+                    fadeIn: 0
+                });
+            
+            } 
